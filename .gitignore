@@ -23,5 +23,3 @@ erl_crash.dump
 
 /native/*/target
 
-# The checksum files for precompiled NIFs
-checksum-*.exs
