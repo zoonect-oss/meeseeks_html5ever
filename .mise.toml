@@ -1,0 +1,10 @@
+[env]
+#_.file = [".env"]
+KERL_BUILD_DOCS = "yes"
+KERL_CONFIGURE_OPTIONS = "--disable-debug --disable-silent-rules --enable-darwin-64bit --enable-dynamic-ssl-lib --enable-gettimeofday-as-os-system-time --enable-kernel-poll --enable-shared-zlib --enable-smp-support --enable-threads --without-javac --without-jinterface --without-odbc --without-wx"
+ERL_AFLAGS = "-kernel shell_history enabled"
+
+[tools]
+erlang = "26.2.2"
+elixir = "1.16.1-otp-26"
+rust = "1.76.0"
